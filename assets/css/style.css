@@ -240,6 +240,10 @@ input[type=submit] {
 
 /* Media Queries */ 
 
+@-ms-viewport{
+  width: device-width;
+}
+
 @media screen and (max-width: 980px) {
   .auth-image {
     width: 100%;
